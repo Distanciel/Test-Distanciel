@@ -43,7 +43,7 @@ tr, td {
   font-size: 200%;
 }
 button {
-  float: right;
+  float: left;
 }
 #name, #email {
   width: 50%;
