@@ -1,0 +1,42 @@
+
+
+
+
+
+
+.btn-success:focus {
+  background-color: #000;
+  border-color: transparent;
+}
+
+
+/*---------------------------------------
+    General
+-----------------------------------------*/
+
+
+#contact input :not(.selectivity-single-select-input),
+#contact select {
+  height: 50px;
+} 
+
+#contact input[type="submit"] {
+  background: #222;
+  border-radius: 100px;
+  border: none;
+  color: #ffffff;
+  font-weight: 400;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact input[type="submit"]:hover {
+  background: #000;
+}
+
+
+
+/*---------------------------------------
+   Blog section
+-----------------------------------------*/
+
+
