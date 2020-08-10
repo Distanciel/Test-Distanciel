@@ -187,8 +187,10 @@
 </nav>
 
 	  
-       <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+
+<form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
   action="https://script.google.com/macros/s/AKfycbwH691EK7TgcSRyYuSWCOPmSr1-wt-SmfDfiKK-Xw/exec">
+		  
 
 
 <!-- Slide Premere page 5 (#91) -->
@@ -203,7 +205,7 @@
             <h1 class="ae-2 huge fromAbove margin-bottom-2">Bienvenue sur le test distanciel</h1>
             <!--<a href="#" class="button green gradient ae-3">Purchase</a>-->
 			 <p class="margin-bottom-2 ae-1"><span class="opacity-6">Le test se passe en 4 étapes <br>Pour passer les étapes, cliquez sur la flèche en bas de page<br>Une fois le test effectué, n'oubliez pas de cliquer sur "envoyer"</p>
-          </div>
+		  </div>
           <ul class="grid fixedSpaces left margin-top-10">
             <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-4 fromLeft">
              <h3>Présentation</h3>
@@ -211,7 +213,7 @@
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-5 fromLeft">
              <h3>Débit</h3>
-             <p class="tiny opacity-6">Assurez-vous d'être en filaire pour un meilleur débit.</p>
+             <p class="tiny opacity-6">Assurez-vous d'etre en filaire pour un meilleur débit.</p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-6 fromLeft">
              <h3>Matériel</h3>
@@ -279,7 +281,7 @@
 						<fieldset>
                               <label for="name">Nom et Prénom</label>
 							  <br>
-                            <input  style="width: 400px" id="name" name="name"   placeholder="" />
+                            <input  style="width: 400px" id="name" name="name"  required placeholder="Aires Jérémy" />
                         </fieldset>
                         <br>
 						
@@ -288,14 +290,14 @@
                             <label for="email">Votre adresse Mail</label>
 							<br>
                             <input style="width: 400px" id="email" name="email" type="email" value=""
-                                    placeholder=""/>
+                                   required placeholder="Nom.prénom@gmail.com"/>
                         </fieldset>
                          <br>
 						 
                         <fieldset>
                             <label for="Numero">Téléphone (facultatif)</label>
 							<br>
-                            <input style="width: 400px" id="Numero" name="Numero" placeholder="" />
+                            <input style="width: 400px" id="Numero" name="Numero" placeholder="06 .. .. .. .." />
                         </fieldset>
 						<br>
 						
@@ -454,19 +456,20 @@
                                 <fieldset>
                                     <td><label for="Download">Download</label></td>
 									 <TD width=10%>&nbsp;</TD>
-					 <td><label for="Ping">Ping</label></td>
+									  <td><label for="Ping">Ping</label></td>
 									 <TD width=10%>&nbsp;</TD>
-					<td><label for="Upload">Upload</label></td>
+									  <td><label for="Upload">Upload</label></td>
+                                  
                        
                                </fieldset>
                           </tr>
                            <tr>
                         <fieldset>
-                            <td><input style="width: 100px" id="Download" name="Download"   placeholder="? Mbps" /></td>
+                            <td><input style="width: 100px" id="Download" name="Download"  required placeholder="? Mbps" /></td>
 							 <TD width=10%>&nbsp;</TD>
-				<td><input style="width: 100px" id="Ping" name="Ping" placeholder="? Ms" /></td>
+							 <td><input style="width: 100px" id="Ping" name="Ping" placeholder="? Ms" /></td>
 							 <TD width=10%>&nbsp;</TD>
-				<td><input style="width: 100px" id="Upload" name="Upload"   placeholder="? Mbps" /></td>
+							 <td><input style="width: 100px" id="Upload" name="Upload"  required placeholder="? Mbps" /></td>
                         </fieldset>
                           </tr>
 
@@ -547,7 +550,7 @@
                                             <TD>
                                             <fieldset width=45%>
                                      <label for="Son">Avez-vous un retour Micro </label>
-                                    <input  style="width: 300px" id="Son" name="Son"  placeholder="Oui / Non" />
+                                    <input  style="width: 300px" id="Son" name="Son" required placeholder="Oui / Non" />
                                 </fieldset> 
                                             </TD> 
                                               
