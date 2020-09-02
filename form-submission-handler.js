@@ -100,7 +100,7 @@
         testStatus = 'OK';
         $('#result').text('Le test est concluant, vous allez pouvoir suivre la formation.');
       } else {
-        $('#result').text('Malheureusement vous ne disposé pas des prérequis technique');
+        $('#result').text('Malheureusement vous ne disposez pas des prérequis technique');
       }
 
       data.resultat_test = testStatus;
